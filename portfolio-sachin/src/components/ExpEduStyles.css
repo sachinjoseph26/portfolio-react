@@ -1,0 +1,45 @@
+.exp-edu{
+    padding: 35px 10%;
+    text-align: left;
+    justify-content: center;
+}
+
+.grids-ee{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
+}
+.edu-container,.exp-container{
+    padding: 2rem;
+    width: 100%;
+    display: grid;
+    grid-gap: 20px;
+    border-left: 2px solid #bababa;
+}
+.eehead{
+    padding: 5rem 0px 3rem 30px;
+}
+
+.ee-card{
+    position: relative;
+    padding: 20px;
+    border: 1px solid #eaeaea;
+    cursor: pointer;
+    transition: all 0.7s;
+    margin-bottom: 20px;
+}
+.ee-card:hover{
+    box-shadow: 0px 3px 12px 0px #ccc;
+    border: 1px solid transparent;
+}
+.ee-card::before{
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    right: calc(100% + 25px);
+    top: 0;
+    background-color: #bababa;
+    border: 1px solid white;
+}

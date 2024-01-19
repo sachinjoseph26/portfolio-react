@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.23459f81.css",
+    "main.js": "/portfolio-react/static/js/main.a14b4fad.js",
+    "static/media/aboutimage.jpg": "/portfolio-react/static/media/aboutimage.0f5ba06e8249bf29be95.jpg",
+    "static/media/intro.jpg": "/portfolio-react/static/media/intro.5b8c5a5b74d39619c784.jpg",
+    "static/media/aboutimage2.jpg": "/portfolio-react/static/media/aboutimage2.627587ba996673c96da9.jpg",
+    "static/media/pfpic1.png": "/portfolio-react/static/media/pfpic1.b1dbfcb3464f95526298.png",
+    "static/media/vpay.svg": "/portfolio-react/static/media/vpay.55e94c7cdfb648b4c7b495b8356f9f37.svg",
+    "static/media/premskill.svg": "/portfolio-react/static/media/premskill.746cf4ad90c83f0dcd4cf7433931dc13.svg",
+    "static/media/job2.svg": "/portfolio-react/static/media/job2.7500ba13fbe06318f87654a93ae13603.svg",
+    "static/media/ecomm.svg": "/portfolio-react/static/media/ecomm.dea08675d4378b4de9b8ee9dc281ae3d.svg",
+    "static/media/skills.svg": "/portfolio-react/static/media/skills.93833f966c52006b104277a335d0f9a1.svg",
+    "static/media/portfolio.svg": "/portfolio-react/static/media/portfolio.a6f736aa9ca0a7823bb87c6af981a492.svg",
+    "static/media/face2.svg": "/portfolio-react/static/media/face2.967a70f196ba7c5f73061372c96ee898.svg",
+    "index.html": "/portfolio-react/index.html",
+    "main.23459f81.css.map": "/portfolio-react/static/css/main.23459f81.css.map",
+    "main.a14b4fad.js.map": "/portfolio-react/static/js/main.a14b4fad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23459f81.css",
+    "static/js/main.a14b4fad.js"
+  ]
+}

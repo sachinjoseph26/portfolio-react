@@ -3,10 +3,10 @@
     padding: 4rem 0 2rem 0;
 }
 .project-container{
-    max-width: 1140px;
+    max-width: 1200px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
     grid-gap: 50px;
     padding-bottom: 5rem;
 }

@@ -3,21 +3,28 @@ import "./HeroImgStyles.css"
 import React from 'react'
 import IntroImg from "../assets/intro.jpg"
 import { Link } from "react-router-dom"
-
+import pfpic from "../assets/pfpic1.png"
 const HeroImg = () => {
   return (
     <div className="hero">
+      
         <div className="mask">
             <img className="intro-img" src={IntroImg} alt="intro-img"/>
         </div>
+      
         <div className="content">
-          <p>I am Sachin Joseph</p>
-          <h1>Big Data Solution Architect</h1>
+          <h1>Sachin Joseph</h1>
+          <p>Big Data Solution Architect</p>
           <div>
-            <Link to="/project" className="btn">Projects</Link>
-            <Link to="/contact" className="btn btn-light">Contact</Link>
+          <Link to="/download-resume" className="btn">Download Resume</Link>
+            
           </div>
         </div>
+
+        <div className="profilepic">
+              <img className="pfpic" src={pfpic} alt="pfpic"/>
+        </div>
+        
     </div>
   )
 }

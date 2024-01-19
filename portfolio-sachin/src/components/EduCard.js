@@ -5,6 +5,7 @@ const EduCard = (props) => {
   return (
     <div className='ee-card'>
         <p>{props.degree}</p>
+        <p>{props.course}</p>
         <p>{props.college}</p>
         <p>{props.year}</p>
     </div>

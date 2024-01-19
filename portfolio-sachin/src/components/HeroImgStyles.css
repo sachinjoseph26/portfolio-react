@@ -1,65 +1,158 @@
-.mask{
+.mask {
     width: 100%;
     height: 100vh;
     position: relative;
-}
-.intro-img{
+  }
+  
+  .intro-img {
     width: 100%;
     height: 100%;
     background-size: cover;
     background-position: center;
     object-fit: cover;
-}
-.mask::after{
+  }
+  
+  .mask::after {
     content: "";
     width: 100%;
     height: 100%;
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     background-color: #000;
     opacity: 0.6;
-}
-
-.hero{
+  }
+  
+  .hero {
     height: 100%;
     width: 100%;
-
-}
-
-.hero .content{
+    position: relative; /* Add this line to establish stacking context */
+  }
+  
+  .pfpic {
     position: absolute;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left: 50%;
-    text-align: center;
-}
-.hero .content h1{
-    font-size: 4rem;
-    padding: 0.6rem 0 1.5rem;
-}
+    top: 0.1rem;
+    left: 2.5%;
+    right: 0;
+    z-index: 1;
+    object-fit: contain;
+    height: 1000px;
+    width: 1300px;
+    padding-left: 500px;
+    padding-bottom: 200px;
+    opacity: 0.8;
+    overflow: hidden;
+  }
 
-.hero .content p{
-    font-size: 2rem;
+  
+  
+  .hero .content {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 20%;
+    text-align: left;
+    z-index: 2;
+  }
+  
+  .hero .content h1 {
+    font-size: 3rem;
+    padding: 0.6rem 0 1.5rem;
+  }
+  
+  .hero .content p {
+    font-size: 1rem;
     font-weight: 200;
     text-transform: uppercase;
+    padding: 0.6rem 0 1.5rem;
+  }
+  
+  .content .btn {
+    
+    display: inline;
+    width: auto; /* Let the button take the necessary width */
+    padding: 0.4rem 0.9rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffff00;
+    color: #000000;
+    text-decoration: none;
+  }
+  
+
+/* Media Query for screens up to 640px wide */
+@media screen and (max-width: 840px) {
+  .mask {
+    width: 100%;
+    height: 100vh ;
+    position: relative;
+  }
+
+  .intro-img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+  }
+
+  .mask::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.6;
+  }
+
+  .hero {
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+
+  .pfpic {
+    position: relative;
+    z-index: 1;
+    object-fit: cover;
+    height: 500px;
+    width: 800px;
+    opacity: 0.8;
+  }
+
+  .hero .content {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: left;
+    z-index: 2;
+  }
+
+  .hero .content h1 {
+    font-size: 2rem; 
+    padding: 0.6rem 0 1.5rem;
+  }
+
+  .hero .content p {
+    font-size: 1.2rem; /* Adjusted font size for smaller screens */
+    font-weight: 200;
+    text-transform: uppercase;
+    padding: 0.6rem 0 1.5rem;
+  }
+
+  .content .btn {
+    display: inline;
+    width: auto; 
+    padding: 0.4rem 0.9rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffff00;
+    color: #000000;
+    text-decoration: none;
+  }
 }
 
-.content .btn{
-    margin: 1rem 0.2rem;
-    display: inline;    
-
-}
-
-@media screen and (max-width:640px) {
-
-    .hero .content h1{
-        font-size: 3rem;
-    }
-    
-    .hero .content p{
-        font-size: 1.4rem;
-    }
-    
-    
-}
+  

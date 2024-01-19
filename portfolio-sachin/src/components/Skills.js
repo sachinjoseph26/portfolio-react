@@ -11,9 +11,10 @@ const Skills = () => {
                 <h3>-Big Data-</h3>
                 <span className="bar"></span>
                 <p className="btc">Expert</p>
-                <p>-Hadoop-</p>
                 <p>-Cloudera-</p>
+                <p>-Hadoop-</p>
                 <p>-Hive-</p>
+                <p>-Kafka,Spark-</p>
             </div>
 
             <div className="card">
@@ -28,8 +29,7 @@ const Skills = () => {
                 <h3>-Programming-</h3>
                 <span className="bar"></span>
                 <p className="btc">Expert</p>
-                <p>-Python-</p>
-                <p>-R-</p>
+                <p>-Python,R-</p>
                 <p>-React JS-</p>
                 <p>-C,C++-</p>
                 <p>-HTML,CSS,JS-</p>
@@ -39,9 +39,8 @@ const Skills = () => {
                 <h3>-Cloud/Analytics-</h3>
                 <span className="bar"></span>
                 <p className="btc">Expert</p>
-                <p>-AWS-</p>
-                <p>-GCP-</p>
-                <p>-Power BI-</p>
+                <p>-AWS, GCP -</p>
+                <p>-Power BI, Tableau-</p>
             </div>
 
         </div>

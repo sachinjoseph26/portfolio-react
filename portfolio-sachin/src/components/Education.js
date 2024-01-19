@@ -18,6 +18,7 @@ const Education = () => {
                         key={ind}
                         degree={val.degree}
                         college={val.college}
+                        course={val.course}
                         year={val.year}
                         />
                     )

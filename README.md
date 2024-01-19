@@ -5,9 +5,9 @@ Start the application
 
 -- npm start
 
-Deploy the application in Netlify
+Deploy the application
 
 -- npm run build
 
-Upload the build file in Netlify
+Upload the build file for deployment
 
